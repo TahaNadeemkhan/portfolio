@@ -11,64 +11,52 @@ export const ABOUT_TEXT = `I’m a driven and enthusiastic individual with a dee
 export const EXPERIENCES = [
   {
     year: "Present",
-    role: "Aspiring Web Developer",
-    company: "Dekodix",
-    description: `Developing and maintaining web applications using JavaScript, React.js, and Next.js. Currently building projects to enhance skills and understanding of RESTful APIs and database integration with Firebase and MongoDB.`,
-    technologies: ["Typescipt", "React.js", "Next.js", "Firebase"],
-  },
-  {
-    year: "Present",
-    role: "Frontend Developer (Projects)",
-    company: "Intact one Solution",
-    description: `Designed and developed user interfaces for personal projects using Next.js and React. Focused on integrating frontend components with backend services and implementing responsive designs.`,
-    technologies: ["HTML", "CSS", "React.js", "CMS"],
-  },
-  {
-    year: "2024",
-    role: "Freelance Web Developer",
-    company: "FirstPageRankerz",
-    description: `Worked on various web development projects as a freelancer, delivering customized solutions using JavaScript, React.js, and fierbase. Collaborated with clients to understand their requirements and implement effective web applications.`,
-    technologies: ["JavaScript", "React.js", "Firebase", "Tailwind"],
-  },
-  {
-    year: "Present",
-    role: "software Developer",
-    company: "Self-Directed Projects",
-    description: `Engaging in self-study and projects to explore generative AI concepts and applications. Learning to develop AI-driven solutions and understanding data management with various technologies.`,
-    technologies: ["nextjs", "Wordpress", "Elementor", "SEO"],
+    role: "Agentic AI Developer",
+    company: "Pakistan Recruitment",
+    description: `During my Agentic AI internship at Pakistan Recruitment, I automated key hiring tasks by building smart tools such as, Lead Finder that extracts contact details from websites, An Interview Bot that conducts voice-based candidate screenings, A Resume Expert that checks resumes and gives career advice, and A Social Post Maker that creates recruitment content automatically. These AI tools helped reduce manual work by 70% and made the hiring process much faster.`,
+    technologies: ["Python", "OpenAI Agent SDK", "Streamlit", "NeonDB"],
   },
 ]
 
 export const PROJECTS = [
+  {
+    
+      title: "CV Analyzer & Career Coach",
+      image: project4,
+      description:
+        "Developed an AI-powered resume optimization system that evaluates applicant-JD compatibility using ATS scoring, generates tailored career advice via Gemini AI’s NLP, and produces keyword-optimized profile summaries. This solution enhanced candidate screening quality, resulting in a 40% increase in interview conversion rates by automatically matching qualified applicants with relevant opportunities",
+      technologies: ["Python", "Google Gemini", "Streamlit", "LLMops"],
+      vercelLink: "https://jobseeker-pakistan-recruitment.streamlit.app/",
+    
+    },
+    {
+      title: "Cross-Platform Social Media Manager",
+      image: project2,
+      description:
+        "Created an AI content engine that automatically generates platform-specific posts for LinkedIn, Facebook, and YouTube - including video titles/descriptions - while integrating with calendar APIs for optimal scheduling. This unified social media automation system reduced content management workload by 65%, enabling recruiters to focus on high-value engagements instead of manual posting.",
+      technologies: ["Python", "Streamlit", "Gemini", "linkedin/Facbook API's"],
+      vercelLink: "https://social-media-manage.streamlit.app/",
+  
+  
+    },
   {
     title: "Autonomous Interview Chatbot", 
     image: project3,
     description: "A fully automated, interactive interview scheduler that removes the hassle of back-and-forth scheduling!",
     technologies: ["Python", "OpenAI Agent SDK", "Chainlit"],  
 
-},
-,
-  {
-    title: "ATS Resume Analayzer",
-    image: project4,
-    description:
-      "This is a coding blog project designed to create and display markdown-based blog posts. It features a clean and responsive UI with support for markdown rendering using Remark and Rehype, allowing users to write and share technical content. Built with TypeScript and Next.js, this blog is optimized for performance and user experience.",
-    technologies: ["Python", "Google Gemini", "Streamlit", "Pinecone"],
-    vercelLink: "https://atsanalyzer-main-cshpjkmepoonqqu46nrtjx.streamlit.app/",
-  },
-  
-  {
-    title: "Website insight Chatbot",
-    image: project2,
-    description:
-      "This is a Point of Sale (POS) Restaurant Panel designed to streamline restaurant operations. It features an intuitive and responsive interface for managing orders, menus, and inventory. The project includes an Admin Panel for complete control, enabling restaurant managers to oversee staff, update menus, track sales, and generate detailed reports.",
-    technologies: ["Python", "Streamlit", "Gemini", "huggingface"],
-    vercelLink: "https://huggingface.co/spaces/tahak666/website_integration_app",
-
-
   },
   {
-    title: "Invoice LLM App",
+    title: "Voice-Based AI Interview System",
+    image: project5,
+    description:
+      "Designed an AI-powered voice interview system that conducts real-time, JD-specific conversations with candidates using speech recognition, automatically generates scored transcripts, and provides recruiters with a centralized dashboard for evaluation. This end-to-end automation replaced 90% of manual screening interviews while delivering standardized candidate assessments",
+    technologies: ["Python", "OpenAI Agent SDK", "Gemini API Key", "Streamlit", "NeonDB"],
+    vercelLink: "https://invoice-analyzer.streamlit.app/",
+  },
+
+  {
+    title: "Invoice Analyzer",
     image: project1,
     description:
       'The Invoice Analyzer is a web application that uses AI to extract information from invoice images. Built with Next.js for the frontend and FastAPI for the backend, it lets users upload an invoice, ask a question (like "What’s the total amount?"), and get an accurate AI-generated answer.',
