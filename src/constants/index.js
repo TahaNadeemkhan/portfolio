@@ -40,7 +40,7 @@ export const PROJECTS = [
   
     },
   {
-    title: "Autonomous Interview Chatbot", 
+    title: "Autonomous Interview Scheduler", 
     image: project3,
     description: "A fully automated, interactive interview scheduler that removes the hassle of back-and-forth scheduling!",
     technologies: ["Python", "OpenAI Agent SDK", "Chainlit"],  
@@ -52,7 +52,7 @@ export const PROJECTS = [
     description:
       "Designed an AI-powered voice interview system that conducts real-time, JD-specific conversations with candidates using speech recognition, automatically generates scored transcripts, and provides recruiters with a centralized dashboard for evaluation. This end-to-end automation replaced 90% of manual screening interviews while delivering standardized candidate assessments",
     technologies: ["Python", "OpenAI Agent SDK", "Gemini API Key", "Streamlit", "NeonDB"],
-    vercelLink: "https://invoice-analyzer.streamlit.app/",
+    vercelLink: "https://interview-app-t5cgv9gsa7mom8adhynpxd.streamlit.app/",
   },
 
   {
