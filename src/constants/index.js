@@ -61,7 +61,7 @@ export const PROJECTS = [
     description:
       'Developed an intelligent CV ranking system that allows recruiters to upload multiple resumes and evaluates them based on keyword matching and missing skills. Automatically scores and ranks candidates, providing actionable insights and enabling CSV export for streamlined hiring decisions. Designed a user-friendly interface for efficient recruiter workflow. Optimized for accuracy and ease of use, improving candidate shortlisting efficiency.',
     technologies: ["Python", "OpenAI Agent SDK", "streamlit"],
-    
+    vercelLink: "https://resume-screening-by-taha-nadeem.streamlit.app/"
   },
   
 ]
