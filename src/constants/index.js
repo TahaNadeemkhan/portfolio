@@ -56,11 +56,11 @@ export const PROJECTS = [
   },
 
   {
-    title: "Invoice Analyzer",
+    title: "Advance AI CV Ranker",
     image: project1,
     description:
-      'The Invoice Analyzer is a web application that uses AI to extract information from invoice images. Built with Next.js for the frontend and FastAPI for the backend, it lets users upload an invoice, ask a question (like "What’s the total amount?"), and get an accurate AI-generated answer.',
-    technologies: ["Python", "CrewAI", "Typescript", "Next.js"],
+      'Developed an intelligent CV ranking system that allows recruiters to upload multiple resumes and evaluates them based on keyword matching and missing skills. Automatically scores and ranks candidates, providing actionable insights and enabling CSV export for streamlined hiring decisions. Designed a user-friendly interface for efficient recruiter workflow. Optimized for accuracy and ease of use, improving candidate shortlisting efficiency.',
+    technologies: ["Python", "OpenAI Agent SDK", "streamlit"],
     
   },
   
