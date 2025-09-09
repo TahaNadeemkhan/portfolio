@@ -26,7 +26,7 @@ export const PROJECTS = [
       description:
         "Developed an AI-powered resume optimization system that evaluates applicant-JD compatibility using ATS scoring, generates tailored career advice via Gemini AI’s NLP, and produces keyword-optimized profile summaries. This solution enhanced candidate screening quality, resulting in a 40% increase in interview conversion rates by automatically matching qualified applicants with relevant opportunities",
       technologies: ["Python", "Google Gemini", "Streamlit", "LLMops"],
-      vercelLink: "https://jobseeker-pakistan-recruitment.streamlit.app/",
+      vercelLink: "https://jobseekerpy-mpoci8x9cklfysjmebysss.streamlit.app/",
     
     },
     {
