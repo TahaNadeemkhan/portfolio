@@ -21,6 +21,24 @@ export const EXPERIENCES = [
 ]
 
 export const PROJECTS = [
+    {
+    title: "AI-Powered CRM with n8n + Google Sheets",
+    image: project6,
+    description:
+      'Built a lightweight AI-driven CRM integrating n8n, Google Sheets, and AI agents to manage leads, automate emails, and provide an interactive dashboard — enabling instant updates via natural language commands.',
+    technologies: ["N8N", "Google Sheets", "Lovable"],
+    vercelLink: "https://glass-growth-flow.lovable.app/"
+  },
+
+  {
+    title: "AI-Powered Restaurant Bot (n8n + WhatsApp)",
+    image: project7,
+    description:
+      'Developed a conversational restaurant assistant on WhatsApp handling voice/text orders, fetching menu, logging orders to Google Sheets, and managing table reservations via Google Calendar integration.',
+    technologies: ["N8N", "Whatsapp API", "Google Sheets", "Google Calnder", "Gemini-API"],
+    vercelLink: ""
+  },
+  
   {
     
       title: "CV Analyzer & Career Coach",
@@ -65,27 +83,6 @@ export const PROJECTS = [
     technologies: ["Python", "OpenAI Agent SDK", "streamlit"],
     vercelLink: "https://resume-screening-by-taha-nadeem.streamlit.app/"
   },
-  
-  {
-    title: "AI-Powered CRM with n8n + Google Sheets",
-    image: project6,
-    description:
-      'Built a lightweight AI-driven CRM integrating n8n, Google Sheets, and AI agents to manage leads, automate emails, and provide an interactive dashboard — enabling instant updates via natural language commands.',
-    technologies: ["N8N", "Google Sheets", "Lovable"],
-    vercelLink: "https://glass-growth-flow.lovable.app/"
-  },
-
-  {
-    title: "AI-Powered Restaurant Bot (n8n + WhatsApp)",
-    image: project7,
-    description:
-      'Developed a conversational restaurant assistant on WhatsApp handling voice/text orders, fetching menu, logging orders to Google Sheets, and managing table reservations via Google Calendar integration.',
-    technologies: ["N8N", "Whatsapp API", "Google Sheets", "Google Calnder", "Gemini-API"],
-    vercelLink: ""
-
-  },
-
-
 ]
 
 export const CONTACT = {
