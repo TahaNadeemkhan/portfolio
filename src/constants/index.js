@@ -3,10 +3,12 @@ import project2 from "../assets/projects/project-2.png"
 import project3 from "../assets/projects/project-3.mp4"
 import project4 from "../assets/projects/project-4.png"
 import project5 from "../assets/projects/project-5.jpg"
+import project6 from "../assets/projects/project-6.png"
+import project7 from "../assets/projects/project-7.png"
 
-export const HERO_CONTENT = `I am an energetic and motivated individual with a strong passion for Agentic and Robotic AI Engineering. I have developed AI agents capable of performing real-world tasks, leveraging advanced frameworks and technologies. My focus is on deepening my expertise in LLM frameworks and contributing to innovative solutions in AI. My ultimate goal is to utilize my skills and knowledge to create impactful, real-world applications that push the boundaries of AI and robotics.`
+export const HERO_CONTENT = `I am an energetic and motivated individual with a strong passion for Agentic and Robotic AI Engineering. I can build automation and AI solutions both with low-code tools like n8n and with code-first frameworks like Openai Ai Agent SDK, CrewAI depending on the project requirements. My ultimate goal is to utilize my skills and knowledge to create impactful, real-world applications that push the boundaries of AI and robotics.`
 
-export const ABOUT_TEXT = `I’m a driven and enthusiastic individual with a deep passion for Agentic and Robotic AI Engineering. I’ve built AI agents that tackle real-world challenges, harnessing cutting-edge tools and frameworks like Python, OpenAI agent sdk, LangGraph, CrewAI, FastAPI for API development, Docker, and foundational Machine Learning/Deep Learning techniques. My focus is on sharpening my expertise in LLM frameworks while crafting innovative, practical solutions in AI. My ultimate aim is to apply my skills to develop groundbreaking applications that redefine the possibilities of AI and robotics.`
+export const ABOUT_TEXT = `I’m a driven and enthusiastic individual with a deep passion for Agentic and Robotic AI Engineering. I’ve built AI agents that tackle real-world challenges, harnessing cutting-edge tools and frameworks like Python, OpenAI agent sdk, LangGraph, CrewAI, n8n, FastAPI for API development, Docker, and foundational Machine Learning/Deep Learning techniques. My focus is on sharpening my expertise in LLM frameworks while crafting innovative, practical solutions in AI. My ultimate aim is to apply my skills to develop groundbreaking applications that redefine the possibilities of AI and robotics.`
 
 export const EXPERIENCES = [
   {
@@ -64,6 +66,26 @@ export const PROJECTS = [
     vercelLink: "https://resume-screening-by-taha-nadeem.streamlit.app/"
   },
   
+  {
+    title: "AI-Powered CRM with n8n + Google Sheets",
+    image: project6,
+    description:
+      'Built a lightweight AI-driven CRM integrating n8n, Google Sheets, and AI agents to manage leads, automate emails, and provide an interactive dashboard — enabling instant updates via natural language commands.',
+    technologies: ["N8N", "Google Sheets", "Lovable"],
+    vercelLink: "https://glass-growth-flow.lovable.app/"
+  },
+
+  {
+    title: "AI-Powered Restaurant Bot (n8n + WhatsApp)",
+    image: project7,
+    description:
+      'Developed a conversational restaurant assistant on WhatsApp handling voice/text orders, fetching menu, logging orders to Google Sheets, and managing table reservations via Google Calendar integration.',
+    technologies: ["N8N", "Whatsapp API", "Google Sheets", "Google Calnder", "Gemini-API"],
+    vercelLink: ""
+
+  },
+
+
 ]
 
 export const CONTACT = {
