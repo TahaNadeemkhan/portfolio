@@ -37,8 +37,11 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              {project.image.endsWith(".mp4") ? (
-                <div className="relative cursor-pointer group" onClick={() => openVideoModal(project.image)}>
+              {project.image?.endsWith(".mp4") ? (
+                <div
+                  className="relative cursor-pointer group"
+                  onClick={() => openVideoModal(project.image)}
+                >
                   <video width={150} height={150} className="mb-6 rounded">
                     <source src={project.image} type="video/mp4" />
                     Your browser does not support the video tag.
@@ -57,6 +60,7 @@ const Projects = () => {
                 />
               )}
             </motion.div>
+
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
@@ -75,14 +79,16 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              <a
-                href={project.vercelLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block rounded bg-purple-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-purple-700"
-              >
-                View on Streamlit
-              </a>
+              {project.vercelLink && (
+                <a
+                  href={project.vercelLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded bg-purple-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-purple-700"
+                >
+                  {project.deployLabel || "View Project"}
+                </a>
+              )}
             </motion.div>
           </div>
         ))}

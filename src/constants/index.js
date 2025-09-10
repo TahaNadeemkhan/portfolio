@@ -21,69 +21,76 @@ export const EXPERIENCES = [
 ]
 
 export const PROJECTS = [
-    {
+  {
     title: "AI-Powered CRM with n8n + Google Sheets",
     image: project6,
     description:
-      'Built a lightweight AI-driven CRM integrating n8n, Google Sheets, and AI agents to manage leads, automate emails, and provide an interactive dashboard — enabling instant updates via natural language commands.',
+      "Built a lightweight AI-driven CRM integrating n8n, Google Sheets, and AI agents to manage leads, automate emails, and provide an interactive dashboard — enabling instant updates via natural language commands.",
     technologies: ["N8N", "Google Sheets", "Lovable"],
-    vercelLink: "https://glass-growth-flow.lovable.app/"
+    vercelLink: "https://glass-growth-flow.lovable.app/",
+    deployLabel: "View on Lovable"
   },
 
   {
     title: "AI-Powered Restaurant Bot (n8n + WhatsApp)",
     image: project7,
     description:
-      'Developed a conversational restaurant assistant on WhatsApp handling voice/text orders, fetching menu, logging orders to Google Sheets, and managing table reservations via Google Calendar integration.',
+      "Developed a conversational restaurant assistant on WhatsApp handling voice/text orders, fetching menu, logging orders to Google Sheets, and managing table reservations via Google Calendar integration.",
     technologies: ["N8N", "Whatsapp API", "Google Sheets", "Google Calnder", "Gemini-API"],
-    vercelLink: ""
+    vercelLink: "",
+    deployLabel: "Coming Soon"
   },
-  
+
   {
-    
-      title: "CV Analyzer & Career Coach",
-      image: project4,
-      description:
-        "Developed an AI-powered resume optimization system that evaluates applicant-JD compatibility using ATS scoring, generates tailored career advice via Gemini AI’s NLP, and produces keyword-optimized profile summaries. This solution enhanced candidate screening quality, resulting in a 40% increase in interview conversion rates by automatically matching qualified applicants with relevant opportunities",
-      technologies: ["Python", "Google Gemini", "Streamlit", "LLMops"],
-      vercelLink: "https://jobseekerpy-mpoci8x9cklfysjmebysss.streamlit.app/",
-    
-    },
-    {
-      title: "Cross-Platform Social Media Manager",
-      image: project2,
-      description:
-        "Created an AI content engine that automatically generates platform-specific posts for LinkedIn, Facebook, and YouTube - including video titles/descriptions - while integrating with calendar APIs for optimal scheduling. This unified social media automation system reduced content management workload by 65%, enabling recruiters to focus on high-value engagements instead of manual posting.",
-      technologies: ["Python", "Streamlit", "Gemini", "linkedin/Facbook API's"],
-      vercelLink: "https://social-media-manage.streamlit.app/",
-  
-  
-    },
+    title: "CV Analyzer & Career Coach",
+    image: project4,
+    description:
+      "Developed an AI-powered resume optimization system that evaluates applicant-JD compatibility using ATS scoring, generates tailored career advice via Gemini AI’s NLP, and produces keyword-optimized profile summaries...",
+    technologies: ["Python", "Google Gemini", "Streamlit", "LLMops"],
+    vercelLink: "https://jobseekerpy-mpoci8x9cklfysjmebysss.streamlit.app/",
+    deployLabel: "View on Streamlit"
+  },
+
+  {
+    title: "Cross-Platform Social Media Manager",
+    image: project2,
+    description:
+      "Created an AI content engine that automatically generates platform-specific posts for LinkedIn, Facebook, and YouTube...",
+    technologies: ["Python", "Streamlit", "Gemini", "linkedin/Facbook API's"],
+    vercelLink: "https://social-media-manage.streamlit.app/",
+    deployLabel: "View on Streamlit"
+  },
+
   {
     title: "Autonomous Interview Scheduler", 
     image: project3,
     description: "A fully automated, interactive interview scheduler that removes the hassle of back-and-forth scheduling!",
-    technologies: ["Python", "OpenAI Agent SDK", "Chainlit"],  
-
+    technologies: ["Python", "OpenAI Agent SDK", "Chainlit"],
+    vercelLink: "",
+    deployLabel: "Coming Soon"
   },
+
   {
     title: "Voice-Based AI Interview System",
     image: project5,
     description:
-      "Designed an AI-powered voice interview system that conducts real-time, JD-specific conversations with candidates using speech recognition, automatically generates scored transcripts, and provides recruiters with a centralized dashboard for evaluation. This end-to-end automation replaced 90% of manual screening interviews while delivering standardized candidate assessments",
+      "Designed an AI-powered voice interview system that conducts real-time, JD-specific conversations with candidates...",
     technologies: ["Python", "OpenAI Agent SDK", "Gemini API Key", "Streamlit", "NeonDB"],
     vercelLink: "https://interview-app-t5cgv9gsa7mom8adhynpxd.streamlit.app/",
+    deployLabel: "View on Streamlit"
   },
 
   {
     title: "Advance AI CV Ranker",
     image: project1,
     description:
-      'Developed an intelligent CV ranking system that allows recruiters to upload multiple resumes and evaluates them based on keyword matching and missing skills. Automatically scores and ranks candidates, providing actionable insights and enabling CSV export for streamlined hiring decisions. Designed a user-friendly interface for efficient recruiter workflow. Optimized for accuracy and ease of use, improving candidate shortlisting efficiency.',
-    technologies: ["Python", "OpenAI Agent SDK", "streamlit"],
-    vercelLink: "https://resume-screening-by-taha-nadeem.streamlit.app/"
-  },
+      "Developed an intelligent CV ranking system that allows recruiters to upload multiple resumes and evaluates them...",
+    technologies: ["Python", "OpenAI Agent SDK", "Streamlit"],
+    vercelLink: "https://resume-screening-by-taha-nadeem.streamlit.app/",
+    deployLabel: "View on Streamlit"
+  }
 ]
+
 
 export const CONTACT = {
   address: "Remote + Karachi, Pakistan",

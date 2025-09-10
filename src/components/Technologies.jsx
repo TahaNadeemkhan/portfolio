@@ -1,7 +1,7 @@
 import { FaPython } from "react-icons/fa";
-import { SiTensorflow } from "react-icons/si";
+import { SiN8N } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { SiApachekafka } from "react-icons/si";
+import { SiOpenai } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 import { SiLangchain } from "react-icons/si";
 import { motion } from "framer-motion";
@@ -40,7 +40,7 @@ const Technologies = () => {
           animate={{ y: [-7, 7] }}  // Moves up first
           transition={bounceTransition}
         >
-          <SiTensorflow  className="text-7xl text-red-600" />
+          <SiN8N  className="text-7xl text-red-600" />
         </motion.div>
 
         {/* Icon 2 (Next.js) - Moving down first */}
@@ -49,7 +49,7 @@ const Technologies = () => {
           animate={{ y: [7, -7] }}  // Moves down first
           transition={bounceTransition}
         >
-          <SiApachekafka className="text-7xl" />
+          <SiOpenai className="text-7xl" />
         </motion.div>
 
         <motion.div
